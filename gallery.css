@@ -1,0 +1,173 @@
+body {
+background-color: #111116;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: consolas;
+  color: #000000;
+}
+.glow {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                       0 0 50px #2196f3, 0 0 60px #ff8300, 0 0 70px #feff00;
+        }
+      }
+
+
+div#thumbnail-frame1 {
+  border: 2px solid #004adf;
+  border-radius: 0px;
+  float: left;
+  margin: 20%;
+  margin-top: 70px;
+  margin-right: 20px;
+  margin-left: 10%;
+  padding: 1px;
+  glow-button:hover
+     color: #e90000;
+      box-shadow: 0 0 10px #004adf;
+}
+div#thumbnail1 {
+  background-image: url(oof.png);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}
+
+div#thumbnail-frame2 {
+  border: 2px solid #66ff00;
+  border-radius: 0;
+  float: left;
+  margin-right: 20px;
+  margin-top: 70px;
+  padding: 1px;
+  glow-button:hover
+     color: #e90000;
+      box-shadow: 0 0 10px #66ff00;
+}
+div#thumbnail2 {
+  background-image: url(image2.png);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}
+
+div#thumbnail-frame3 {
+  border: 2px solid #fd7d19;
+  border-radius: 0px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 70px;
+  padding: 1px;
+  glow-button:hover
+     color: #e90000;
+      box-shadow: 0 0 10px #fd7d19;
+}
+div#thumbnail3 {
+  background-image: url(flower.png);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}
+
+div#thumbnail-frame4 {
+  border: 2px solid #ff1394;
+  border-radius: 0px;
+  float: left;
+  margin-right: 10px;
+  margin-top: 70px;
+  padding: 1px;
+  glow-button:hover
+     color: #ff1394;
+      box-shadow: 0 0 10px #ff1394;
+}
+div#thumbnail4 {
+  background-image: url(juicebox.png);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}
+
+div#thumbnail-frame5 {
+  border: 2px solid #004adf;
+  border-radius: 0px;
+  float: left;
+  margin-top: 70px;
+  margin-right: 20px;
+  padding: 1px;
+  glow-button:hover
+     color: #e90000;
+      box-shadow: 0 0 10px #004adf;
+}
+div#thumbnail5 {
+  background-image: url(were.gif);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}
+
+div#thumbnail-frame6 {
+  border: 2px solid #66ff00;
+  border-radius: 0;
+  float: left;
+  margin-right: 20px;
+  margin-top: 70px;
+  padding: 1px;
+  glow-button:hover
+     color: #e90000;
+      box-shadow: 0 0 10px #66ff00;
+}
+div#thumbnail6 {
+  background-image: url(were.gif);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}
+
+div#thumbnail-frame7 {
+  border: 2px solid #fd7d19;
+  border-radius: 0px;
+  float: left;
+  margin-right: 20px;
+  margin-top: 70px;
+  padding: 1px;
+  glow-button:hover
+     color: #e90000;
+      box-shadow: 0 0 10px #fd7d19;
+}
+div#thumbnail7 {
+  background-image: url(were.gif);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}
+
+div#thumbnail-frame8 {
+  border: 2px solid #ff1394;
+  border-radius: 0px;
+  float: left;
+  margin-left: -1105px;
+  margin-top: 70px;
+  padding: 1px;
+  glow-button:hover
+     color: #ff1394;
+      box-shadow: 0 0 10px #ff1394;
+}
+div#thumbnail8 {
+  background-image: url(were.gif);
+  border-radius: 0px;
+  height: 167px;
+  width: 250px;
+}

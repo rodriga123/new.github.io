@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+* { margin:0; padding:0; }
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  margin-left: -55px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: consolas;
+  color: #ff29b6;
+}
+.glow {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                       0 0 50px #ff29b6, 0 0 60px #ff29b6, 0 0 70px #ff29b6;
+        }
+      }
+
+body {
+background-image: url("ak.png");
+  background-color: #210321;
+  color:#210321;
+  font-family:"Belle","Comic Sans MS", cursive;
+  font-size:25px;
+  line-height:27px;}
+
+#wrapper {
+  position:relative;
+  width:960px;
+  margin:0 auto;
+  padding-top:75px;}
+
+<!-- Blackboard -->
+  #blackboardPlaceholder {
+  background:url(stroke.png) no-repeat;
+  width:924px;
+  height:599px;
+  margin:0 auto;
+  padding:14px 0 75px 14px;
+  cursor:crosshair;
+}
+
+#drawingCanvas {
+ position: absolute;
+ border:none;
+ color: black;
+ overflow:hidden;
+ background-color:transparent;
+ }
+#tempCanvas { position: absolute; width:897px; height:532px; overflow:hidden; }
+
+.noscript { padding:50px 30px 0 40px; width:820px; }
+#selector {
+ position:absolute;
+ z-index:99999;
+ margin-top:-30px;
+ }
+select {
+  text-align: center;
+  letter-spacing: 3px;
+ font-family: consolas;
+ font-size: 12px;
+ color: #f321bf;
+ background-color:#210321;
+
+ }
+
+ #redChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:160px;
+ glow-button:hover
+    color: #e90000;
+     background: #e90000;
+     box-shadow: 0 0 10px #e90000, 0 0 40px #e90000, 0 0 80px
+     #e90000;
+   }
+#greenChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:400px; glow-button:hover
+   color: #00ff00;
+    background: #00ff00;
+    box-shadow: 0 0 10px #00ff00, 0 0 40px #00ff00, 0 0 80px
+    #00ff00;
+  }
+#blueChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:480px;
+  color: #105dfc;
+ background: #105dfc;
+ box-shadow: 0 0 10px #105dfc, 0 0 40px #105dfc, 0 0 80px
+ #105dfc;
+}
+#yellowChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:320px;
+  color: #feff00;
+ background: #feff00;
+ box-shadow: 0 0 10px #feff00, 0 0 40px #feff00, 0 0 80px
+ #feff00;
+}
+#orangeChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:240px;
+  color: #ff8300;
+ background: #ff8300;
+ box-shadow: 0 0 10px #ff8300, 0 0 40px #ff8300, 0 0 80px
+ #ff8300;
+}
+#pinkChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:560px; glow-button:hover
+   color: #ff26d9;
+    background: #ff26d9;
+    box-shadow: 0 0 10px #ff26d9, 0 0 40px #ff26d9, 0 0 80px
+    #ff26d9;
+  }
+#whiteChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:80px;
+glow-button:hover
+    color: #FFFFFF;
+    background: #FFFFFF;
+    box-shadow: 0 0 10px #FFFFFF, 0 0 40px #FFFFFF, 0 0 40px
+    #FFFFFF;
+  }
+
+#eraser {
+ position: relative;
+ background:url(erasers.png) no-repeat;
+ left: 980px;
+ top: 532px;
+ width: 100px;
+ height: 50px;
+ z-index:99999;
+ cursor:pointer;
+ }
+
+ #stroke-subtract {
+  position:absolute;
+  top:415px;
+  left:-60px;
+  z-index:999999;
+  cursor:pointer;
+  }
+ #stroke-add {
+    position:absolute;
+    top:415px;
+    left:-25px;
+    z-index:999999;
+    cursor:pointer;
+    }
+ #strokeWeight {
+  background:url(../images/stroke-style.png) no-repeat;
+  width:43px;
+  height:153px;
+  position:absolute;
+  top:440px;
+  left:-55px;
+  z-index:1;
+  padding:8px 0 0 7px;
+  }
+ .stroke { cursor:pointer; margin-bottom:10px;
+   glow-button:hover
+       color: #FFFFFF;
+       background: #FFFFFF;
+       box-shadow: 0 0 10px #FFFFFF, 0 0 40px #FFFFFF, 0 0 40px
+       #FFFFFF;
+ }
+
+ h2 {
+   text-align: right;
+   margin-top: -100px;
+   margin-left: -100px;
+   margin-right: 90px;
+   letter-spacing: 3px;
+   font-size: 15px;
+   font-family: consolas;
+   color: #ff29b6;
+ }
+
+ a{
+   position: absolute;
+   display: inline-block;
+   padding: 15px 20px;
+   margin: 50px 50px;
+   margin-left: 1150px;
+   color: #ff29b6;
+   font-size: 12px;
+   text-decoration: none;
+   text-transform: lowercase;
+   overflow: hidden;
+   transition: 0.2s;
+   letter-spacing: 4px;
+   font-family: consolas;
+   box-sizing: border-box;
+   vertical-align: top;
+ }
+ a:hover
+ {
+   color: #210321;
+   background: #ff29b6;
+   box-shadow: 0 0 10px #ff29b6, 0 0 40px #ff29b6, 0 0 80px
+   #ff29b6;
+ }

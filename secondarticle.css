@@ -1,0 +1,87 @@
+body {
+background-image: url("lastone.png");
+}
+
+
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: consolas;
+  color: #e2ff22;
+}
+.glow {
+        font-size: 30px;
+        color: #ee0305;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                       0 0 50px #ee0303, 0 0 60px #ee0303, 0 0 70px #ee0303;
+        }
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: consolas;
+  color: #ee0303;
+}
+.glow {
+        font-size: 23px;
+        color: #ee0305;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                       0 0 50px #ee0303, 0 0 60px #ee0303, 0 0 70px #ee0303;
+        }
+}
+
+p{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: consolas;
+  margin-top: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  color: #ee0303;
+  line-height: 1.5;
+}
+
+h3 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: consolas;
+  margin-top: 25px;
+  margin-right: 275px;
+  margin-left: 275px;
+  color: #ee0305;
+}
+
+a
+{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: consolas;
+  margin-top: 25px;
+  margin-right: 200px;
+  margin-left: 200px;
+  color: #ee0303;
+  line-height: 1.5;
+}

@@ -1,0 +1,71 @@
+body {
+background-image: url("yur.png");
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: consolas;
+  color: #e2ff22;
+}
+.glow {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                       0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00;
+        }
+}
+
+p {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-size: 15px;
+  color: #ffff00;
+  font-family: consolas;
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: consolas;
+  color: #ffff00;
+}
+.glow {
+        font-size: 20px;
+        color: #ffff00;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                       0 0 50px #ffff00, 0 0 60px #ffff00, 0 0 70px #ffff00;
+        }
+      }
+
+a {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: consolas;
+  margin-top: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+  color: #ffff00;
+  line-height: 1.5;
+}

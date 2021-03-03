@@ -1,0 +1,120 @@
+body {
+background-image: url("ughhh.png");
+}
+
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  font-family: consolas;
+  color: #2196f3;
+}
+.glow {
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        -webkit-animation: glow 1s ease-in-out infinite alternate;
+        -moz-animation: glow 1s ease-in-out infinite alternate;
+        animation: glow 1s ease-in-out infinite alternate;
+      }
+      @-webkit-keyframes glow {
+        from {
+          text-shadow: 0 0 10px #eeeeee, 0 0 20px #000000, 0 0 30px #000000, 0 0 40px #000000,
+                       0 0 50px #2196f3, 0 0 60px #2196f3, 0 0 70px #2196f3;
+        }
+      }
+
+h2 {
+  text-align: center;
+  margin-top: 70px;
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: #2196f3;
+  font-family: consolas;
+}
+h3 {
+  text-align: center;
+  margin-top: 120px;
+  margin-left: -350px;
+  margin-right: 270px;
+  font-size: 15px;
+  color: #ff29b6;
+  font-family: consolas;
+  letter-spacing: 2px;
+}
+h4 {
+  text-align: center;
+  margin-top: 165px;
+  margin-left: -350px;
+  margin-right: 270px;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-family: consolas;
+  letter-spacing: 2px;
+}
+h5 {
+  text-align: center;
+  margin-top: 150px;
+  margin-left: -350px;
+  margin-right: 260px;
+  font-size: 15px;
+  color: #2eff29;
+  font-family: consolas;
+  letter-spacing: 2px;
+}
+
+p {
+  text-align: left;
+  margin-top: 25px;
+  margin-right: 5px;
+  font-size: 20px;
+  color: #2196f3;
+  font-family: consolas;
+}
+div {
+    width: 320px;
+    height: 300px;
+}
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: consolas;
+  box-sizing: border-box;
+  vertical-align: top;
+}
+a
+{
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 50px 50px;
+  color: #2196f3;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: lowercase;
+  overflow: hidden;
+  transition: 0.2s;
+  letter-spacing: 4px;
+}
+a:hover
+{
+  color: #255784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px
+  #2196f3;
+}
+.center {
+  margin: 0;
+  position: absolute;
+  top: 20%;
+  left: 60%;
+  transform: translate(7%, -10%);
+}
+.wrap {
+  height:100%;
+  overflow: hidden;
+}
